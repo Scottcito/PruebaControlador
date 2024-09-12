@@ -1,0 +1,203 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.senassist"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Scott\Downloads\Copiaproyecto\Proyectose-as\android\app\src\main\AndroidManifest.xml:3:5-67
+11-->C:\Users\Scott\Downloads\Copiaproyecto\Proyectose-as\android\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\Scott\Downloads\Copiaproyecto\Proyectose-as\android\app\src\main\AndroidManifest.xml:4:5-65
+12-->C:\Users\Scott\Downloads\Copiaproyecto\Proyectose-as\android\app\src\main\AndroidManifest.xml:4:22-62
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->[:react-native-fs] C:\Users\Scott\Downloads\Copiaproyecto\Proyectose-as\node_modules\react-native-fs\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-81
+13-->[:react-native-fs] C:\Users\Scott\Downloads\Copiaproyecto\Proyectose-as\node_modules\react-native-fs\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15    <!--
+16    This manifest file is used only by Gradle to configure debug-only capabilities
+17    for React Native Apps.
+18    -->
+19    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+19-->[com.facebook.react:react-android:0.73.7] C:\Users\Scott\.gradle\caches\transforms-4\356559414c86be809e84da2c58d26559\transformed\jetified-react-android-0.73.7-debug\AndroidManifest.xml:16:5-78
+19-->[com.facebook.react:react-android:0.73.7] C:\Users\Scott\.gradle\caches\transforms-4\356559414c86be809e84da2c58d26559\transformed\jetified-react-android-0.73.7-debug\AndroidManifest.xml:16:22-75
+20
+21    <queries>
+21-->[androidx.camera:camera-extensions:1.1.0] C:\Users\Scott\.gradle\caches\transforms-4\f2d3d87f75c3a46a4c37a9c1f44f1e34\transformed\jetified-camera-extensions-1.1.0\AndroidManifest.xml:24:5-28:15
+22        <intent>
+22-->[androidx.camera:camera-extensions:1.1.0] C:\Users\Scott\.gradle\caches\transforms-4\f2d3d87f75c3a46a4c37a9c1f44f1e34\transformed\jetified-camera-extensions-1.1.0\AndroidManifest.xml:25:9-27:18
+23            <action android:name="androidx.camera.extensions.action.VENDOR_ACTION" />
+23-->[androidx.camera:camera-extensions:1.1.0] C:\Users\Scott\.gradle\caches\transforms-4\f2d3d87f75c3a46a4c37a9c1f44f1e34\transformed\jetified-camera-extensions-1.1.0\AndroidManifest.xml:26:13-86
+23-->[androidx.camera:camera-extensions:1.1.0] C:\Users\Scott\.gradle\caches\transforms-4\f2d3d87f75c3a46a4c37a9c1f44f1e34\transformed\jetified-camera-extensions-1.1.0\AndroidManifest.xml:26:21-83
+24        </intent>
+25    </queries>
+26
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+27-->[androidx.media3:media3-common:1.3.1] C:\Users\Scott\.gradle\caches\transforms-4\e45cafbbda3ac1448ec390eb17bb84e2\transformed\jetified-media3-common-1.3.1\AndroidManifest.xml:22:5-79
+27-->[androidx.media3:media3-common:1.3.1] C:\Users\Scott\.gradle\caches\transforms-4\e45cafbbda3ac1448ec390eb17bb84e2\transformed\jetified-media3-common-1.3.1\AndroidManifest.xml:22:22-76
+28
+29    <permission
+29-->[androidx.core:core:1.9.0] C:\Users\Scott\.gradle\caches\transforms-4\3d41e5438b198dd30b81a1814efc8c18\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+30        android:name="com.senassist.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+30-->[androidx.core:core:1.9.0] C:\Users\Scott\.gradle\caches\transforms-4\3d41e5438b198dd30b81a1814efc8c18\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+31        android:protectionLevel="signature" />
+31-->[androidx.core:core:1.9.0] C:\Users\Scott\.gradle\caches\transforms-4\3d41e5438b198dd30b81a1814efc8c18\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+32
+33    <uses-permission android:name="com.senassist.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+33-->[androidx.core:core:1.9.0] C:\Users\Scott\.gradle\caches\transforms-4\3d41e5438b198dd30b81a1814efc8c18\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+33-->[androidx.core:core:1.9.0] C:\Users\Scott\.gradle\caches\transforms-4\3d41e5438b198dd30b81a1814efc8c18\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+34
+35    <application
+35-->C:\Users\Scott\Downloads\Copiaproyecto\Proyectose-as\android\app\src\main\AndroidManifest.xml:5:5-24:19
+36        android:name="com.senassist.MainApplication"
+36-->C:\Users\Scott\Downloads\Copiaproyecto\Proyectose-as\android\app\src\main\AndroidManifest.xml:6:7-38
+37        android:allowBackup="false"
+37-->C:\Users\Scott\Downloads\Copiaproyecto\Proyectose-as\android\app\src\main\AndroidManifest.xml:10:7-34
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.9.0] C:\Users\Scott\.gradle\caches\transforms-4\3d41e5438b198dd30b81a1814efc8c18\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+39        android:debuggable="true"
+40        android:extractNativeLibs="false"
+41        android:icon="@mipmap/ic_launcher"
+41-->C:\Users\Scott\Downloads\Copiaproyecto\Proyectose-as\android\app\src\main\AndroidManifest.xml:8:7-41
+42        android:label="@string/app_name"
+42-->C:\Users\Scott\Downloads\Copiaproyecto\Proyectose-as\android\app\src\main\AndroidManifest.xml:7:7-39
+43        android:roundIcon="@mipmap/ic_launcher_round"
+43-->C:\Users\Scott\Downloads\Copiaproyecto\Proyectose-as\android\app\src\main\AndroidManifest.xml:9:7-52
+44        android:theme="@style/AppTheme"
+44-->C:\Users\Scott\Downloads\Copiaproyecto\Proyectose-as\android\app\src\main\AndroidManifest.xml:11:7-38
+45        android:usesCleartextTraffic="true" >
+45-->C:\Users\Scott\Downloads\Copiaproyecto\Proyectose-as\android\app\src\debug\AndroidManifest.xml:6:9-44
+46        <activity
+46-->C:\Users\Scott\Downloads\Copiaproyecto\Proyectose-as\android\app\src\main\AndroidManifest.xml:12:7-23:18
+47            android:name="com.senassist.MainActivity"
+47-->C:\Users\Scott\Downloads\Copiaproyecto\Proyectose-as\android\app\src\main\AndroidManifest.xml:13:9-37
+48            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+48-->C:\Users\Scott\Downloads\Copiaproyecto\Proyectose-as\android\app\src\main\AndroidManifest.xml:15:9-118
+49            android:exported="true"
+49-->C:\Users\Scott\Downloads\Copiaproyecto\Proyectose-as\android\app\src\main\AndroidManifest.xml:18:9-32
+50            android:label="@string/app_name"
+50-->C:\Users\Scott\Downloads\Copiaproyecto\Proyectose-as\android\app\src\main\AndroidManifest.xml:14:9-41
+51            android:launchMode="singleTask"
+51-->C:\Users\Scott\Downloads\Copiaproyecto\Proyectose-as\android\app\src\main\AndroidManifest.xml:16:9-40
+52            android:windowSoftInputMode="adjustResize" >
+52-->C:\Users\Scott\Downloads\Copiaproyecto\Proyectose-as\android\app\src\main\AndroidManifest.xml:17:9-51
+53            <intent-filter>
+53-->C:\Users\Scott\Downloads\Copiaproyecto\Proyectose-as\android\app\src\main\AndroidManifest.xml:19:9-22:25
+54                <action android:name="android.intent.action.MAIN" />
+54-->C:\Users\Scott\Downloads\Copiaproyecto\Proyectose-as\android\app\src\main\AndroidManifest.xml:20:13-65
+54-->C:\Users\Scott\Downloads\Copiaproyecto\Proyectose-as\android\app\src\main\AndroidManifest.xml:20:21-62
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->C:\Users\Scott\Downloads\Copiaproyecto\Proyectose-as\android\app\src\main\AndroidManifest.xml:21:13-73
+56-->C:\Users\Scott\Downloads\Copiaproyecto\Proyectose-as\android\app\src\main\AndroidManifest.xml:21:23-70
+57            </intent-filter>
+58        </activity>
+59        <activity
+59-->[com.facebook.react:react-android:0.73.7] C:\Users\Scott\.gradle\caches\transforms-4\356559414c86be809e84da2c58d26559\transformed\jetified-react-android-0.73.7-debug\AndroidManifest.xml:19:9-21:40
+60            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+60-->[com.facebook.react:react-android:0.73.7] C:\Users\Scott\.gradle\caches\transforms-4\356559414c86be809e84da2c58d26559\transformed\jetified-react-android-0.73.7-debug\AndroidManifest.xml:20:13-77
+61            android:exported="false" />
+61-->[com.facebook.react:react-android:0.73.7] C:\Users\Scott\.gradle\caches\transforms-4\356559414c86be809e84da2c58d26559\transformed\jetified-react-android-0.73.7-debug\AndroidManifest.xml:21:13-37
+62
+63        <uses-library
+63-->[androidx.camera:camera-extensions:1.1.0] C:\Users\Scott\.gradle\caches\transforms-4\f2d3d87f75c3a46a4c37a9c1f44f1e34\transformed\jetified-camera-extensions-1.1.0\AndroidManifest.xml:31:9-33:40
+64            android:name="androidx.camera.extensions.impl"
+64-->[androidx.camera:camera-extensions:1.1.0] C:\Users\Scott\.gradle\caches\transforms-4\f2d3d87f75c3a46a4c37a9c1f44f1e34\transformed\jetified-camera-extensions-1.1.0\AndroidManifest.xml:32:13-59
+65            android:required="false" />
+65-->[androidx.camera:camera-extensions:1.1.0] C:\Users\Scott\.gradle\caches\transforms-4\f2d3d87f75c3a46a4c37a9c1f44f1e34\transformed\jetified-camera-extensions-1.1.0\AndroidManifest.xml:33:13-37
+66
+67        <service
+67-->[androidx.camera:camera-camera2:1.1.0] C:\Users\Scott\.gradle\caches\transforms-4\bdfcddd8396f6befab6b48e846804dc1\transformed\jetified-camera-camera2-1.1.0\AndroidManifest.xml:26:9-35:19
+68            android:name="androidx.camera.core.impl.MetadataHolderService"
+68-->[androidx.camera:camera-camera2:1.1.0] C:\Users\Scott\.gradle\caches\transforms-4\bdfcddd8396f6befab6b48e846804dc1\transformed\jetified-camera-camera2-1.1.0\AndroidManifest.xml:27:13-75
+69            android:enabled="false"
+69-->[androidx.camera:camera-camera2:1.1.0] C:\Users\Scott\.gradle\caches\transforms-4\bdfcddd8396f6befab6b48e846804dc1\transformed\jetified-camera-camera2-1.1.0\AndroidManifest.xml:28:13-36
+70            android:exported="false" >
+70-->[androidx.camera:camera-camera2:1.1.0] C:\Users\Scott\.gradle\caches\transforms-4\bdfcddd8396f6befab6b48e846804dc1\transformed\jetified-camera-camera2-1.1.0\AndroidManifest.xml:29:13-37
+71            <meta-data
+71-->[androidx.camera:camera-camera2:1.1.0] C:\Users\Scott\.gradle\caches\transforms-4\bdfcddd8396f6befab6b48e846804dc1\transformed\jetified-camera-camera2-1.1.0\AndroidManifest.xml:32:13-34:89
+72                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+72-->[androidx.camera:camera-camera2:1.1.0] C:\Users\Scott\.gradle\caches\transforms-4\bdfcddd8396f6befab6b48e846804dc1\transformed\jetified-camera-camera2-1.1.0\AndroidManifest.xml:33:17-103
+73                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+73-->[androidx.camera:camera-camera2:1.1.0] C:\Users\Scott\.gradle\caches\transforms-4\bdfcddd8396f6befab6b48e846804dc1\transformed\jetified-camera-camera2-1.1.0\AndroidManifest.xml:34:17-86
+74        </service>
+75
+76        <provider
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Scott\.gradle\caches\transforms-4\76ebf5f440b9943c3f0fbcd28315e4ca\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+77            android:name="androidx.startup.InitializationProvider"
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Scott\.gradle\caches\transforms-4\76ebf5f440b9943c3f0fbcd28315e4ca\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+78            android:authorities="com.senassist.androidx-startup"
+78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Scott\.gradle\caches\transforms-4\76ebf5f440b9943c3f0fbcd28315e4ca\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+79            android:exported="false" >
+79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Scott\.gradle\caches\transforms-4\76ebf5f440b9943c3f0fbcd28315e4ca\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+80            <meta-data
+80-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Scott\.gradle\caches\transforms-4\76ebf5f440b9943c3f0fbcd28315e4ca\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+81                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+81-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Scott\.gradle\caches\transforms-4\76ebf5f440b9943c3f0fbcd28315e4ca\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+82                android:value="androidx.startup" />
+82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Scott\.gradle\caches\transforms-4\76ebf5f440b9943c3f0fbcd28315e4ca\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+83            <meta-data
+83-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Scott\.gradle\caches\transforms-4\bc2cf97bfa8fe5115454c096d27c33b3\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+84-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Scott\.gradle\caches\transforms-4\bc2cf97bfa8fe5115454c096d27c33b3\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+85                android:value="androidx.startup" />
+85-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Scott\.gradle\caches\transforms-4\bc2cf97bfa8fe5115454c096d27c33b3\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+86            <meta-data
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Scott\.gradle\caches\transforms-4\3c29e487eeee9afd2922df1790b3b70a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+87                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Scott\.gradle\caches\transforms-4\3c29e487eeee9afd2922df1790b3b70a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+88                android:value="androidx.startup" />
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Scott\.gradle\caches\transforms-4\3c29e487eeee9afd2922df1790b3b70a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+89        </provider>
+90
+91        <receiver
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Scott\.gradle\caches\transforms-4\3c29e487eeee9afd2922df1790b3b70a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+92            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Scott\.gradle\caches\transforms-4\3c29e487eeee9afd2922df1790b3b70a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+93            android:directBootAware="false"
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Scott\.gradle\caches\transforms-4\3c29e487eeee9afd2922df1790b3b70a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+94            android:enabled="true"
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Scott\.gradle\caches\transforms-4\3c29e487eeee9afd2922df1790b3b70a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+95            android:exported="true"
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Scott\.gradle\caches\transforms-4\3c29e487eeee9afd2922df1790b3b70a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+96            android:permission="android.permission.DUMP" >
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Scott\.gradle\caches\transforms-4\3c29e487eeee9afd2922df1790b3b70a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+97            <intent-filter>
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Scott\.gradle\caches\transforms-4\3c29e487eeee9afd2922df1790b3b70a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+98                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Scott\.gradle\caches\transforms-4\3c29e487eeee9afd2922df1790b3b70a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Scott\.gradle\caches\transforms-4\3c29e487eeee9afd2922df1790b3b70a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+99            </intent-filter>
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Scott\.gradle\caches\transforms-4\3c29e487eeee9afd2922df1790b3b70a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+101                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Scott\.gradle\caches\transforms-4\3c29e487eeee9afd2922df1790b3b70a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Scott\.gradle\caches\transforms-4\3c29e487eeee9afd2922df1790b3b70a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+102            </intent-filter>
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Scott\.gradle\caches\transforms-4\3c29e487eeee9afd2922df1790b3b70a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+104                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Scott\.gradle\caches\transforms-4\3c29e487eeee9afd2922df1790b3b70a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Scott\.gradle\caches\transforms-4\3c29e487eeee9afd2922df1790b3b70a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+105            </intent-filter>
+106            <intent-filter>
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Scott\.gradle\caches\transforms-4\3c29e487eeee9afd2922df1790b3b70a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+107                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Scott\.gradle\caches\transforms-4\3c29e487eeee9afd2922df1790b3b70a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Scott\.gradle\caches\transforms-4\3c29e487eeee9afd2922df1790b3b70a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+108            </intent-filter>
+109        </receiver>
+110
+111        <meta-data
+111-->[com.facebook.soloader:soloader:0.10.5] C:\Users\Scott\.gradle\caches\transforms-4\75d582cf135e283d9a8afe9370db0e78\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:12:9-14:37
+112            android:name="com.facebook.soloader.enabled"
+112-->[com.facebook.soloader:soloader:0.10.5] C:\Users\Scott\.gradle\caches\transforms-4\75d582cf135e283d9a8afe9370db0e78\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:13:13-57
+113            android:value="false" />
+113-->[com.facebook.soloader:soloader:0.10.5] C:\Users\Scott\.gradle\caches\transforms-4\75d582cf135e283d9a8afe9370db0e78\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:14:13-34
+114    </application>
+115
+116</manifest>
